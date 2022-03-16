@@ -1,6 +1,6 @@
 import os
 source = 'C:\\Users\\allan\\OneDrive\\Desktop\\FolderA\\File0314.txt'
-destination = 'C:\\Users\\allan\\OneDrive\\Desktop\\FolderB\\File0316.txt'
+destination = 'C:\\Users\\allan\\OneDrive\\Desktop\\FolderB\\File0314(moved).txt'
 try:
     os.rename(source,destination)
     print(source+' has been successfully moved from FolderA to FolderB!')
